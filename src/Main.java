@@ -15,7 +15,7 @@ public class Main {
         System.out.print("Первый массив: ");
         for (int i = 0; i < firstArray.length; i++) {
             if (i == firstArray.length -1){
-                System.out.printf("%d\n", firstArray[i]);
+                System.out.println(firstArray[i]);
                 break;
             }
             System.out.printf("%d, ", firstArray[i]);
@@ -24,7 +24,7 @@ public class Main {
         System.out.print("Второй массив: ");
         for (int i = 0; i < secondArray.length; i++) {
             if (i == secondArray.length -1){
-                System.out.printf("%.3f\n", secondArray[i]);
+                System.out.println(secondArray[i]);
                 break;
             }
             System.out.printf("%.3f, ", secondArray[i]);
@@ -33,7 +33,7 @@ public class Main {
         System.out.print("Третий массив: ");
         for (int i = 0; i < thirdArray.length; i++) {
             if (i == thirdArray.length -1){
-                System.out.printf("%d\n", thirdArray[i]);
+                System.out.println(thirdArray[i]);
                 break;
             }
             System.out.printf("%d, ", thirdArray[i]);
@@ -45,7 +45,7 @@ public class Main {
         System.out.print("Первый массив: ");
         for (int i = firstArray.length - 1; i >= 0 ; i--) {
             if (i == 0){
-                System.out.printf("%d\n", firstArray[i]);
+                System.out.println(firstArray[i]);
                 break;
             }
             System.out.printf("%d, ", firstArray[i]);
@@ -54,7 +54,7 @@ public class Main {
         System.out.print("Второй массив: ");
         for (int i = secondArray.length - 1; i >= 0 ; i--) {
             if (i == 0){
-                System.out.printf("%.3f\n", secondArray[i]);
+                System.out.println(secondArray[i]);
                 break;
             }
             System.out.printf("%.3f, ", secondArray[i]);
@@ -63,7 +63,7 @@ public class Main {
         System.out.print("Третий массив: ");
         for (int i = thirdArray.length - 1; i >= 0 ; i--) {
             if (i == 0){
-                System.out.printf("%d\n", thirdArray[i]);
+                System.out.println(thirdArray[i]);
                 break;
             }
             System.out.printf("%d, ", thirdArray[i]);
@@ -78,7 +78,7 @@ public class Main {
                 firstArray[i] += 1;
             }
             if (i == firstArray.length -1){
-                System.out.printf("%d\n", firstArray[i]);
+                System.out.println(firstArray[i]);
                 break;
             }
             System.out.printf("%d, ", firstArray[i]);
